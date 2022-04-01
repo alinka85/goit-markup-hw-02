@@ -1,0 +1,124 @@
+:root {
+  --title-color: #ffffff;
+  --main-color: #212121;
+  --text-color: #757575;
+  --link-color: #2196f3;
+}
+body {
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.2px;
+  text-decoration: none;
+}
+.logo-web {
+  color: #2196f3;
+}
+.logo-stud {
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.link,
+.link-main,
+.link-end {
+  line-height: 1.7;
+  color: var(--main-color);
+  text-decoration: none;
+}
+.link-main {
+  color: var(--link-color);
+}
+.link {
+  color: var(--text-color);
+}
+
+.main {
+  background-color: #2f303a;
+  margin-top: 80px;
+}
+.main-caption {
+  color: var(--title-color);
+  font-size: 44px;
+  height: 60px;
+  text-align: center;
+  padding: 200px 452px 280px 452px;
+}
+button {
+  border: 0;
+  background-color: var(--link-color);
+  color: var(--title-color);
+  border-radius: 4px;
+  display: flex;
+  cursor: pointer;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--main-color);
+}
+.about-title {
+  font-weight: 700;
+  line-height: 1.14;
+  color: var(--main-color);
+}
+.about-text {
+  line-height: 1.7;
+  color: var(--text-color);
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--main-color);
+}
+.position {
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--text-color);
+}
+footer {
+  background-color: #2f303a;
+}
+ul {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.command-list {
+  color: var(--title-color);
+}
+footer .logo-stud,
+footer .link {
+  color: var(--title-color);
+}
+.link-end {
+  color: rgba(255, 255, 255, 0.6);
+}
+.projects {
+  display: none;
+}
+.title-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  padding-top: 20px;
+  color: var(--main-color);
+  letter-spacing: 0.06em;
+}
+.title-discription {
+  font-size: 16px;
+  line-height: 1.8;
+  padding-top: 4px;
+  color: var(--text-color);
+}
