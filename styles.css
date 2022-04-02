@@ -12,9 +12,9 @@ body {
 }
 .logo {
   font-family: Raleway, sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 1.2px;
+  line-height: 1.2;
   text-decoration: none;
 }
 .logo-web {
@@ -30,15 +30,18 @@ ul {
 
 .link,
 .link-main,
+.contact-links,
 .link-end {
-  line-height: 1.7;
+  line-height: 1.14;
   color: var(--main-color);
   text-decoration: none;
+  letter-spacing: 0.02em;
+  font-style: normal;
 }
 .link-main {
   color: var(--link-color);
 }
-.link {
+.contact-links {
   color: var(--text-color);
 }
 
@@ -49,11 +52,16 @@ ul {
 .main-caption {
   color: var(--title-color);
   font-size: 44px;
-  height: 60px;
+  line-height: 1.36;
   text-align: center;
   padding: 200px 452px 280px 452px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
   border: 0;
   background-color: var(--link-color);
   color: var(--title-color);
@@ -104,6 +112,7 @@ footer .link {
 }
 .link-end {
   color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
 }
 .projects {
   display: none;
