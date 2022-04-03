@@ -3,6 +3,7 @@
   --main-color: #212121;
   --text-color: #757575;
   --link-color: #2196f3;
+  --projects-color: #f5f4fa;
 }
 body {
   background-color: #ffffff;
@@ -16,9 +17,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
-}
-.logo-web {
-  color: #2196f3;
+  color: var(--link-color);
 }
 .logo-stud {
   color: #000;
@@ -29,7 +28,7 @@ ul {
 }
 
 .link,
-.link-main,
+.link-accent,
 .contact-links,
 .link-end {
   line-height: 1.14;
@@ -37,8 +36,9 @@ ul {
   text-decoration: none;
   letter-spacing: 0.02em;
   font-style: normal;
+  font-weight: 500;
 }
-.link-main {
+.link-accent {
   color: var(--link-color);
 }
 .contact-links {
@@ -51,15 +51,14 @@ ul {
 }
 .main-caption {
   color: var(--title-color);
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
-  padding: 200px 452px 280px 452px;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 button {
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   border: 0;
@@ -78,11 +77,14 @@ button {
 }
 .about-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   color: var(--main-color);
 }
 .about-text {
+  font-weight: 400;
   line-height: 1.7;
+  font-size: 14px;
   color: var(--text-color);
 }
 .name {
@@ -113,10 +115,30 @@ footer .link {
 .link-end {
   color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.03em;
+  font-weight: 400;
 }
 .projects {
   display: none;
 }
+
+.projects-button,
+.button-accent {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  text-align: center;
+  border: 0;
+  background-color: var(--projects-color);
+  color: var(--main-color);
+  cursor: pointer;
+  letter-spacing: 0.03em;
+}
+.button-accent {
+  background-color: var(--link-color);
+  color: var(--title-color);
+}
+
 .title-name {
   font-weight: 700;
   font-size: 18px;
@@ -130,4 +152,5 @@ footer .link {
   line-height: 1.8;
   padding-top: 4px;
   color: var(--text-color);
+  letter-spacing: 0.03em;
 }
